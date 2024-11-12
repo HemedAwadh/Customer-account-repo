@@ -90,6 +90,7 @@ public class CustomerServiceImpl implements CustomerService {
 
         customerRepository.save(customer);
         accountsRepository.save(accounts);
+
         return true;
     }
 
